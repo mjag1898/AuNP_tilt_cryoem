@@ -14,5 +14,6 @@ used for alignment in final_aggregation.m in this case.
 
 Additionally, circle_plots.m plots the final list of 3D structures while save_struct.m saves the data.
 find_Au.m, plot_mols.m, and kabsch.m are helper functions.
+make_real_pdbs.py and golds.pdb are used to convert saved structures into pdb files with all gold atoms included.
 
 The functionality of each program is described with in-line comments.
