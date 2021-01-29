@@ -8,7 +8,7 @@ pixel_size = 1.285;
 
 if real == 1
     % Settings for where to find images
-    file_nums = [1:49,79:123]
+    file_nums = [1:49,79:123];
     num_mols = length(file_nums);
     tifFileformat = {'part0deg-%03d.tif','part-45deg-%03d.tif'};
     image_dir = 'EM_images_real';
@@ -17,7 +17,7 @@ if real == 1
     m = cos(3.5*pi/180);
 elseif real == 0
     % Settings for where to find images
-    file_nums = 1:141
+    file_nums = 1:141;
     num_mols = length(file_nums);
     tifFileformat = {'stack_0deg-%03d.tif', 'stack_neg45deg-%03d.tif'};
     image_dir = 'EM_images_sim';
