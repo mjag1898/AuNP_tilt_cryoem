@@ -1,7 +1,7 @@
 # AuNP_tilt_cryoem
 Code for reconstruction of Gold nanoparticle 3D coordinates from Cryo-EM tilt-pairs
 
-This is an implementation of the method published in INSERT LINK.
+This is an implementation of a method currently under review for publication.
 It has been tested in MATLAB R2020b and requires the image processing toolbox.
 We have provided the real and simulated cryo-EM datasets on which the code can be run.
 
